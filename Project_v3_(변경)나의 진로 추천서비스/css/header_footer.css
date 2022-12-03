@@ -7,6 +7,7 @@ font-family: 'Nanum Gothic', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gothic+A1&family=Nanum+Gothic&family=Noto+Sans+KR&family=Song+Myung&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -74,11 +75,12 @@ padding-top: 100px;
   
   line-height: 50px;
 
-
-
   font-weight: bold;  
 
-  grid-area: titleHome;
+  font-size: 1.5rem;
+
+  grid-area: titleHome; 
+
 
  }
 /* 사이트 이름 부분 끝 */
