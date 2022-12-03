@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/recommend.css"> 
+  <title>나에게 맞는 학과, 학위 추천</title>
+</head>
+<body>
+  <!-- 헤더 부분 -->
+  <header id="headerstyle">
+    <div id="titleHome">
+      <a href="index.html" >온라인 학위 종합 정보 서비스</a>
+    </div>
+    <div id="searchStyle">
+      <!--검색 기능 폼  -->
+      <form action="">
+      
+        <label for="totalSearch"><span>통합검색</span></label>
+        <input type="search" name="totalSearch" class="searchSize" placeholder="Search...">
+      </form>
+
+    </div> 
+    <nav id ="nav1">                
+      <ul id="loginmenu">
+        <li ><a href ="join.html">회원가입</a></li>
+        <li><a href ="login.html">로그인</a></li>
+        <li><a href ="mypage.html">마이페이지</a></li>
+      </ul>
+    </nav>
+    
+    <nav id="nav2">
+      <div id="menu">
+
+        <ul class="main1" >
+    
+            <li><a href="#">원격대학교</a>
+    
+                <ul class="main2">
+    
+                  <li><a href=""> 원격대학교 개요</a>
+                    <ul class="main3">
+  
+                    <li><a href="cuinfo.html">사이버 대학교 소개</a></li>
+
+                    <li><a href="knou.html">방송통신 대학교 소개</a></li>
+
+                    <li><a href="difference.html">사이버,방송통신대학교 차이점</a></li>
+
+                  </ul>
+                    
+                    </li>
+    
+                    <li><a href="CollegeData.html">대학교별 정보</a> </li>
+    
+                    <li><a href="recommend.html">나에게 맞는 학과, 학위 취득 방법</a> </li>
+    
+                </ul>
+    
+            </li>
+    
+            <li><a id="main1_2" href="#" >독학학위제</a>
+    
+                <ul class="main2">
+    
+                    <li><a href="self.html" >독학학위제 개요</a></li>
+                  
+                    <li><a href="TestDate.html" >시험일정</a></li>
+    
+                </ul>
+    
+            </li>
+    
+            <li><a href="#" id="main1_3" href="#">학점은행제</a>
+    
+                <ul class="main2">
+    
+                    <li><a href="bank.html">학점은행제 개요</a></li>
+    
+                    <li><a href="bankrequest.html">신청</a>
+    
+                    </li>
+    
+                </ul>
+    
+            </li>
+    
+            <li><a href="#">커뮤니티</a>
+    
+                <ul class="main2">
+    
+                    <li><a href="#">원격대학교 게시판</a></li>
+    
+                    <li><a href="#">독학학위제 게시판</a></li>
+    
+                    <li><a href="#">학점은행제 게시판</a></li>
+    
+                </ul>
+    
+            </li>
+    
+        </ul>
+    
+    </div>
+    </nav>
+
+  </header>
+  <!-- 헤더 끝 -->
+
+
+  <!-- 메인 부분 -->
+  <div id="mainStyle">
+
+    <!-- box1 나에게 맞는 학과 알아보기 시작-->
+    <div class="box1 box">
+      <h2  class="h2style">나에게 맞는 학과 알아보기</h2>
+      <br>
+      <form action="" method="" style="height: 380px;">
+        <h3><em>제일 우선 시 하는 조건을 선택해주세요.</em></h3><br>
+           <ul class="re">
+           <li>  
+              <input type="radio" name="dep" id="work" value="work">
+              <label for="work">1.취업률</label>
+           </li>  
+            <li>   
+              <input type="radio" name="dep" id="money" value="money">
+              <label for="money">2.임금</label>
+            </li>
+            <li>  
+              <input type="radio" name="dep" id="happy" value="happy">
+              <label for="happy">3.직업 만족도</label>
+            </li>
+            <li>
+              <input type="radio" name="dep" id="category" value="category">
+              <label for="category">4.학과와 맞는 취업분야</label>
+            </li>
+         </ul>
+         <button type="submit" class="buttonsumit"><a href="학과결과.html" style="color:white;">결과보기</a></button>
+         <button type="reset" class="buttontreset"2>다시하기</button>
+    </form>
+    </div>
+     <!-- box1 나에게 맞는 학과 알아보기 끝-->
+
+       <!-- box2 나에게 맞는 학위 취득 방법 -->
+       <div class="box2 box">
+        <h2 class="h2style">나에게 맞는 학위 취득 방법</h2>
+        <br>
+        <h3><em>현재 일하시는 분야, 재정상황, 시간적 여유를 선택해주세요.</em></h3>
+        <br>
+        <form action="" style="height: 380px;">
+          <fieldset>
+            <legend><h3>1.분야</h3></legend>
+              <select name="job" id="job">
+                <option value="job1">에너지/화학/정밀</option>
+                <option value="job2">의료/제약</option>
+                <option value="job3" selected>컴퓨터/반도체/전자부품</option>
+                <option value="job4">통신기기/방송기기</option>
+                <option value="job5">기계/자동차/금속</option>
+                <option value="job6">음식료/섬유/비금속/기타제조</option>
+                <option value="job7">소프트웨어개발/IT기반서비스</option>
+                <option value="job8">정보통신/방송서비스</option>
+                <option value="job9">도소매/연구개발서비스/기타서비스</option>
+              </select>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend><h3>2.재정 상황</h3></legend>
+          <input type="radio" id="hard" value="hard" name="money">
+          <label for="hard">경제적으로 힘든 상황</label>
+          <input type="radio" id="soso" value="soso" name="money">
+          <label for="ch3.2">보통</label>
+          <input type="radio" id="good" value="good" name="money">
+          <label for="ch3.3">경제적으로 여유로움</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend><h3>3.시간적 여유</h3></legend>
+          <input type="radio" id="many" value="many" name="time">
+          <label for="many">온,오프라인 시간 여유 있음</label><br>
+          <input type="radio" id="online" value="online" name="time">
+          <label for="online">온라인만 가능</label><br>
+          <input type="radio" id="offline" value="offline">
+          <label for="offline">수업 시간을 내기 힘듬</label name="time">
+        </fieldset>
+        <br>
+        <button type="submit" class="buttonsumit"><a href="학위결과.html" style="color:white;">결과보기</a></button>
+        <button type="reset" class="buttontreset">다시하기</button>
+        </form>
+      </div>
+       <!-- box2 나에게 맞는 학위 취득 방법 끝 -->
+      </div>
+   
+
+<!-- 메인  끝-->
+  <!-- 푸터 -->
+</div>
+  <footer id = "footer"> 
+    
+      <ul id="bottommenu">
+        <li><a href="#">사이트 제작자</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">API 정보</a></li>
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+      
+      <p>서울특별시 마포구 신촌로 176 4층 402호 제작자 번호 010-5375-4131</p>
+  </footer>
+
+<script src="slide.js">
+
+</script>
+</body>
+</html>
