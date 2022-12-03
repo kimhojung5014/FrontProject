@@ -23,7 +23,7 @@ font-xl: 1.25rem  20px
   display:grid;
   grid-template-columns: minmax(0px,1fr)  repeat(2,600px) minmax(0px,1fr);
   grid-template-rows: 600px repeat(2,300px);
-  text-align: center;
+
   /* 양 옆 마진  */
 
   /* 그리드 간격 50px */
@@ -64,7 +64,9 @@ font-xl: 1.25rem  20px
 .textarea{
   font-size: 1.125rem;
   /* text-align: left; */
-  padding: 25px;
+  padding-left: 10%;
+  padding-right: 40px;
+  padding-top: 20px;
   font-weight: bold;
   /* font-family: 'Nanum Gothic', sans-serif; */
   /* font-family: 'Noto Sans KR', sans-serif; */
@@ -109,6 +111,7 @@ font-xl: 1.25rem  20px
   border-radius: 20px;
   /* background: rgb(42, 42, 123); */
   background-color:rgb(54, 82, 168);
+  text-align: center;
 
 }
 
