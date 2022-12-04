@@ -35,6 +35,7 @@ font-xl: 1.25rem  20px
   font-size: 0.75rem;
   padding-top: 50px;
 }
+
 /* 공통 css */
 /* 제목 단 */
 .title {
@@ -82,7 +83,9 @@ font-xl: 1.25rem  20px
 
   padding: 50px 50px;
 
-}
+  line-height: 50px;
+
+}/* 테스트에어리어 안에 패팅 값 주는 */
 .intextarea{
   padding: 30px 50px;
 }
@@ -91,6 +94,7 @@ font-xl: 1.25rem  20px
 .inintextarea {
   padding-left: 30px;
 }
+
 /* 리스트 인라인 블록으로 */
 .testlist li{
   display: inline-block;
@@ -107,4 +111,44 @@ font-xl: 1.25rem  20px
   background-color: rgb(54, 82, 168);
   border: none;
   font-weight: bold;
+}
+
+
+/* 여기서부턴 아래 쪽 직업 정보 출력 css */
+.rowLine {
+  height: 160px;
+
+}
+/* 표에서 직업이름 행  */
+.listHeadLine{
+  background-color: #e4ddd1;
+  line-height: 40px;
+  padding: 10px 20px ;
+}
+/* 직업 줄에서 직업 이름 공백  */
+.listJobName {
+  display: inline-block;
+  width:650px;
+}
+/* 직업 칸에서  연봉, 발전 가능성 , 고용평등*/
+.listJobEtc {
+  display: inline-block;
+  width: 150px; 
+}
+.listJobEtcColor {
+  color: rgb(76, 111, 219);
+}
+
+/* 직업에서 아래칸 설명 부분 */
+.listJobExplain {
+  height: 100px;
+  line-height: 20px;
+  padding: 5px 20px 0px ;
+}
+/* 직업 정보 css 끝 */
+/* 직업 정보 아래쪽 페이지 번호 */
+#pageNumber li{
+  display: inline-block;
+  font-size: 1rem;
+  width: 20px;
 }

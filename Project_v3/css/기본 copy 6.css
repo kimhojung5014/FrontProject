@@ -43,6 +43,12 @@ font-xl: 1.25rem  20px
   padding-left:30px ;
   border-left: solid gray;
 }
+
+/* h2 대체 */
+.h2title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 /* 부제목 단 */
 .subtitle {
   font-size: 1.3rem;
