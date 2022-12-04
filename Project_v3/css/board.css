@@ -12,16 +12,8 @@ font-xl: 1.25rem  20px
 #mainStyle {
 
   display:grid;
-  grid-template-columns: minmax(0px,1fr)  1000px minmax(0px,1fr);
+  grid-template-columns: minmax(0px,1fr)  1020px minmax(0px,1fr);
   grid-template-rows: 1fr;
-  /* text-align: center; */
-  /* 양 옆 마진  */
-
-  /* 그리드 간격 50px */
-  /* gap: 50px; */
-  /* gap: 40px; */
-
-
   grid-template-areas: 
   ". mainContent . "; 
 }
@@ -29,8 +21,6 @@ font-xl: 1.25rem  20px
 #mainContent {
 
   grid-area: mainContent;
-
-  border: solid 1px;
 
   font-size: 1rem;
   padding-top: 50px;
@@ -52,7 +42,7 @@ font-xl: 1.25rem  20px
   color: white;
   padding-left: 20px;
   border-radius: 20px;
-  /* width: 400px; */
+  text-align: center;
 }
 /* 부부제목 */
 .subsubtitle {
@@ -111,16 +101,21 @@ font-xl: 1.25rem  20px
   height: 40px;
   border-radius: 20px;
   color: white;
-  background-color: rgb(54, 82, 168);
+  background-color:rgb(76, 111, 219);
   border: none;
   font-weight: bold;
+}
+.submitbutton a{
+
+  color: white;
+
 }
 
 /* 게시판 기능 CSS */
 
 /* 게시판 틀 테이블 */
 #board {
-  border: solid 1px gray;
+  /* border: solid 1px gray; */
   margin-left: auto;
   margin-right: auto;
   width: 100%;
